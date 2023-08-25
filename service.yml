@@ -1,0 +1,14 @@
+apiversion: v1
+kind: service
+metadata:
+  name: rutikdevops
+  labels:
+    app: rutikdevops
+spec:
+  selector:
+    app: rutikdevops
+  type: LoadBalancer
+  ports:
+    - port: 8080
+      targetPort: 80
+      nodePort: 31200
