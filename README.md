@@ -10,6 +10,8 @@
 - Create Kubernetes Cluster using IAM User, Route53,
 - Kubernetes cluster Pull the Image from DockerHub
 
+<img width="960" alt="image" src="https://github.com/rutikdevops/DevOps-Project-3/assets/109506158/2f738bab-09a1-444c-8b04-260d9edd9963">
+
 
 # Create Kubernetes Cluster on Aws
 # Steps :-
