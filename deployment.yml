@@ -1,0 +1,25 @@
+apiversion: apps/v1
+kind: Deployment
+metadata:
+  name: rutikdevops
+spec:
+  selector:
+    matchLabels:
+      app: rutikdevops
+  replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  template:
+    metadata:
+      labels:
+        app: rutikdevops
+    spec:
+      containers:
+      - name: rutikdevops
+        image: rutikdevops/kubernetesproject
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
