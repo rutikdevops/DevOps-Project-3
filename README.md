@@ -260,7 +260,8 @@ kubectl get all
 
 
 
-
+# Project reference
+- Technical Cloud Knowledge - https://youtu.be/LjXW-K7n5fk?si=km9lZ9v9tdmPJ2kK 
 
 
 
