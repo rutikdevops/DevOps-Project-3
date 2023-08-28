@@ -1,6 +1,9 @@
 # DevOps-Project-3
 - Deploy Website on Kubernetes Cluster using Dockerfile, Ansible-Playbook GitHub & Jenkins
 ![Developer (2)](https://github.com/rutikdevops/DevOps-Project-3/assets/109506158/d2811528-3968-4b2d-985a-fdef21537fe6)
+
+# Blog Link :-
+- https://medium.com/@rutikdevops/devops-project-3-5ea675b7832f
 # Project Overview
 - Developer write code and upload on GitHub
 - Connect GitHub to Jenkins using Webhook
